@@ -1,2 +1,3 @@
 rootProject.name = "kafka"
 include "spring-boot-kafka"
+include "spring-boot-wiremock"
