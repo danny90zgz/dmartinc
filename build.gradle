@@ -1,0 +1,5 @@
+apply plugin: "java"
+
+group = "com.dmartinc"
+version = "0.1.0-SNAPSHOT"
+sourceCompatibility = "1.8"
