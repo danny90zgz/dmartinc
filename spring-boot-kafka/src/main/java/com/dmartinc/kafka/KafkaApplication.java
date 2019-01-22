@@ -4,11 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DmartincApplication {
+public class KafkaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DmartincApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(KafkaApplication.class, args);
+    }
 }
-
