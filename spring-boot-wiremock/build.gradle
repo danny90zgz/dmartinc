@@ -20,8 +20,13 @@ repositories {
 	mavenCentral()
 }
 
+configurations.all {
+    exclude module: "spring-boot-starter-tomcat"
+}
+
 dependencies {
 	implementation("com.github.tomakehurst:wiremock-standalone:2.20.0")
 	compile("org.springframework.boot:spring-boot-starter-security")
+    compile("org.springframework.boot:spring-boot-starter-undertow")
 	compile("org.springframework.boot:spring-boot-starter-web")
 }
